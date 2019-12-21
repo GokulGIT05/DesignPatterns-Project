@@ -1,4 +1,4 @@
-package dp1.creational.gk1.singleton;
+package dp1.creational1.singleton;
 
 public class SingletonDTOClass {
 
