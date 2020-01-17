@@ -1,4 +1,4 @@
-package dp2.structural1.adopter;
+ package dp2.structural1.adopter;
 
 import dp2.structural1.adopter.adopterImpl.ClassWayAdopterImpl;
 import dp2.structural1.adopter.adopterImpl.ObjectWayAdopterImpl;
