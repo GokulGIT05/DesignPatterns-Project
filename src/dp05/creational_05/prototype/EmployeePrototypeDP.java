@@ -12,6 +12,7 @@ public class EmployeePrototypeDP implements Cloneable {
 		empList = new ArrayList<String>();
 	}
 
+	// Overloaded Constructor is used in deep cloning
 	public EmployeePrototypeDP(List<String> empList) {
 		super();
 		this.empList = empList;
@@ -32,6 +33,8 @@ public class EmployeePrototypeDP implements Cloneable {
 		return empList;
 	}
 
+	// Why are we overriding ?
+	// We are not initiating an object via constructor. So we are performing deep cloning.
 	@Override
 	public EmployeePrototypeDP clone() throws CloneNotSupportedException{
 		List<String> tempCopy = new ArrayList<String>();
@@ -44,4 +47,14 @@ public class EmployeePrototypeDP implements Cloneable {
 
 		return deepClonedObj;
 	}
+	
+	// With Object class clone method
+	/*@Override
+	public Object clone() throws CloneNotSupportedException{
+		
+		return super.clone();
+	}*/
+	
+	
+	
 }

@@ -10,13 +10,14 @@ public class PrototypeMainApp {
 
 		EmployeePrototypeDP mainObj = new EmployeePrototypeDP();
 		List<String> mainEmpList = mainObj.loadEmployee();
+		// Check with commenting Below Line.
 		mainObj.getEmpList().remove(0); // If we alter the object in main, then it will reflect in all the cloned
 										// objects.
 
-		EmployeePrototypeDP cloneObj1 = mainObj.clone();
+		EmployeePrototypeDP cloneObj1 = /*(EmployeePrototypeDP)*/ mainObj.clone();
 		cloneObj1.getEmpList().add("Gk50");
 
-		EmployeePrototypeDP cloneObj2 = mainObj.clone();
+		EmployeePrototypeDP cloneObj2 = /*(EmployeePrototypeDP)*/ mainObj.clone();
 		cloneObj2.getEmpList().remove(0);
 
 		System.out.println("Main Object List of Employees: " + mainObj.getEmpList());
