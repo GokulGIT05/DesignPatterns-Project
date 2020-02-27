@@ -1,6 +1,5 @@
 package dp04.creational_04.builder;
 
-import dp04.creational_04.builder.Car.CarBuilderInnerStaticClass;
 
 public class ClientMainApp {
 
