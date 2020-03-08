@@ -11,7 +11,7 @@ public class BehavioralMainApp {
 		wood = new GlassHouse();
 		wood.templateMethodForBuildHouse();
 
-		// By using abstact method we are achieving Template Design Pattern
+		// By using abstract method we are achieving Template Design Pattern
 	}
 
 }
