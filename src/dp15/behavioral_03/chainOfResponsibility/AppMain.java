@@ -19,7 +19,7 @@ public class AppMain {
 		subOperation.setNextChain(multiplyOperation);
 		multiplyOperation.setNextChain(divideOperation);
 		
-		// Step 3: Create number with Condtion.
+		// Step 3: Create number with Condition.
 		NumberClass addition = new NumberClass(5, 10, "ADD");
 		NumberClass division = new NumberClass(50, 10, "DIVISION");
 		
