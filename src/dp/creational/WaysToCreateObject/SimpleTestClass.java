@@ -11,7 +11,6 @@ public class SimpleTestClass implements Cloneable, Serializable {
 	// No need to override below clone(). Due to eclipse problem, i have to override.
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
-		// TODO Auto-generated method stub
 		return super.clone();
 	}
 

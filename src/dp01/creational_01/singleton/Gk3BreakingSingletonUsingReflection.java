@@ -19,15 +19,11 @@ public class Gk3BreakingSingletonUsingReflection {
 			SingletonDTOClass.setAccessible(true);
 			object2 = SingletonDTOClass.newInstance();
 			System.out.println(object2);
-			
 		} catch (NoSuchMethodException | SecurityException | InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
 			e.printStackTrace();
 		}
 		
 		System.out.println(object1.hashCode());
 		System.out.println(object2.hashCode());
-		
-		
 	}
-
 }
